@@ -1,0 +1,171 @@
+ .fr{float:right;}
+ .fl{float:left;}
+.tbox{overflow:scroll; border-radius: 2px; border: 1px solid lightgrey  ;padding:6px;max-height:32px;min-height:32px;height:32px;  font-weight:bold;overflow:hidden;resize:none;}
+.hid{display:none;}
+.noflow{overflow:hidden;}
+.hand{cursor: hand;}
+img
+{
+    vertical-align: middle; 
+} 
+         .break
+         {
+         overflow: auto;
+         word-wrap: break-word;      /* IE 5+ */
+         overflow-x:hidden;
+		 overflow-wrap: break-word; 
+         } 
+
+         
+*
+{  
+  font-family:   Verdana, Geneva, Tahoma, sans-serif;font-weight:bold !important;text-shadow: none !important;font-size: 13.8px !important;
+}
+.u-ico
+{
+  margin-top:1px;max-height:16px;
+}
+html, body {
+    height : 100%!important;
+}  
+.emoi{max-width:120px; max-height:20px; }
+.unread{background-color:#FFC89D!important;}
+.object-fit{
+  object-fit: contain;
+  object-position: center right;
+}
+.b{border:1px solid grey;}.bb{border:2px solid grey;}
+table, th, td {
+    border: 0;
+}
+
+th, td {
+    padding:  0px;
+}
+table {  
+    border-spacing: 0;
+    border-collapse: collapse;
+} 
+ 
+ .animating{
+	animation: animate 1s cubic-bezier(0,1,1,0);			
+}
+ 
+.mini{
+font-size: 90%!important;
+}
+.corner{    border-radius: 5px;}
+.minix{
+font-size: 80%!important;
+}
+@keyframes animate{
+	from {
+	   transform: scale(1);
+	}
+	to {
+	   transform: scale(1.5);
+	}
+}
+.nosel,.u-ico,.u-pic,.tago{
+ -webkit-touch-callout: none;
+-webkit-user-select: none;
+-khtml-user-select: none;
+-moz-user-select: none;
+-ms-user-select: none;
+user-select: none;    cursor: default;
+} 
+.center
+{
+    margin: 0 auto;
+}
+.dots
+{
+    display:inline-block;
+    white-space: nowrap;
+    overflow:hidden !important;
+    text-overflow: ellipsis;max-width: 100%;
+} 
+ 
+.hgreen
+{
+    background-color: darkseagreen;
+}
+.hred
+{
+        background-color: indianred;
+}
+.borderg
+{
+    border: 1px solid lavender;
+}
+.border
+{
+    border: 1px solid black;
+}
+.nopad
+{
+    padding: 0px;margin: 0px;
+}
+.fitimg {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+ 
+.bord
+{border-inline: 4px solid dodgerblue!important;}
+.uzr
+{margin-left:1px!important;border-radius: 1px;}
+html {
+    height : 100vh;
+    width : 100vw;
+}  
+    
+    .pn2 {
+      width: 99%;
+      max-width: 320px;
+      height: 80%;
+      left: 5px;
+      float: right;
+      z-index: 2;
+      margin: 0px;
+      position: absolute;
+    }
+    
+    .panel-heading {
+      padding: 6px;
+    }
+    
+    .fa {
+      text-align: left;
+    }
+    
+    .modal-header {
+      padding: 5px;
+    }
+    
+    .badge {
+      padding: 0px 3px;
+    }
+    
+    .bx {
+      margin-top: -8px;
+    }
+    
+    .panel-body {
+      padding: 2px;
+      height: auto;
+    }
+    
+    button.btn { 
+      padding: 5px 5px;
+    }
+    
+    .tab-pane {
+      padding: 0px;
+    }
+    
+    .d2 {
+      padding-bottom: 2px;
+    }
+    .popover-content{padding:1px;}
