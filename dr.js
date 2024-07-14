@@ -1,0 +1,5 @@
+
+
+
+$(`<center><div style="position: static;width: 100%;" onclick="setTimeout(function(){fixSize();},800);"><div width="99.5%" id="design-a"style="background-color: #ffe0b6;color: #105873;border-bottom: 3px solid #105873;border-top: 3px solid #6b5f5f;padding-bottom: 2px;border-radius: 0px 0px 15px 15px;" ><font id="sultan" class=" sultan11"><u><b>مدردش</b></u> </font><div id="spanan" style="font-family: jazeera-light, FontAwesome;color: red;text-align: right;display:none;" ><p style="text-align: center"><b><font color="#000080">قريباً</font></b></p></p><div style="float: right;padding-right: 20px;""></p><div style="float: right;padding-right: 20px;""></p><div style="float: right;padding-right: 20px;""> </p><div style="float: right;padding-right: 20px;""></p><div style="float: right;padding-right: 20px;""></p><div style="float: right;padding-right: 20px;""></font></b><p style="text-align: center"><u><b><a target=""</a></b></u></font></div> </div></div><center>`).insertBefore('#d2');$("#design-a").click(function(){$("#spanan").slideToggle(function(){});});
+
