@@ -1,5 +1,146 @@
+function setPower() {
+    const _0x1bd386 = _0x2c0b6b
+        , _0x2b710a = $(users)[_0x1bd386(0x182, '2uJa')](_0x1bd386(0x1b6, 'b$eY') + myid);
+    if (!_0x2b710a || !_0x2b710a[_0x1bd386(0x1c0, 'SlsT')]) {
+        window[_0x1bd386(0x17d, 'VUto')] = 0x0;
+        return;
+    }
+    const _0x3cb735 = parseInt(_0x2b710a[_0x1bd386(0x1c7, '37og')]('v'));
+    if (isNaN(_0x3cb735)) {
+        window[_0x1bd386(0x180, 'BFvg')] = 0x0;
+        return;
+    }
+    window[_0x1bd386(0x17f, 'ew5v')] = _0x3cb735;
+}
+_mad24znz2[_0x2c0b6b(0x1ac, '37og')](_0x9f544a => {
+    _0x9f544a['ignoreWhenFirstLogin'] = !0x0;
+});
+
+function displayRoaylLogin(_0x276961, _0x8bfe03) {
+    const _0x4ce52b = _0x2c0b6b;
+    if (_0x8bfe03['toggled']) return;
+    _0x8bfe03['toggled'] = !0x0;
+    const _0x22caf6 = _0x276961[_0x4ce52b(0x18b, 'aafc')](_0x4ce52b(0x194, ']M4)'))[_0x4ce52b(0x18c, 'jc@k')](_0x4ce52b(0x1c3, 'MSmt'))[_0x4ce52b(0x19e, 'HE1J')]('url(\"', '')[_0x4ce52b(0x17a, 'keAm')]('\")', '')
+        , _0x124a91 = $(body)[_0x4ce52b(0x1c5, 'MSmt')](_0x4ce52b(0x197, '37og') + _0x22caf6 + '\' /><img class=\'ro_te3b_img\' style=\'position: absolute; top: 1rem; left: -300px;  border-radius: 0%\' width=\'329\' height=\'173\' src=\'' + _0x8bfe03[_0x4ce52b(0x1b5, 'e#Hk')] + _0x4ce52b(0x1b0, 'als)'));
+    _0x124a91['find'](_0x4ce52b(0x1cd, 'zXWG'))['animate']({
+        'left': _0x4ce52b(0x1b8, 'nWKm')
+    }, 0x190, function () {
+        const _0x38bfa1 = $(this);
+        setTimeout(function () {
+            const _0x5dd96b = _0x4d25;
+            _0x38bfa1['hasClass'](_0x5dd96b(0x1c2, '[fD3')) && _0x38bfa1['animate']({
+                'left': '-100px'
+            }, 0x190, function () {
+                const _0x2aafee = _0x5dd96b;
+                _0x38bfa1[_0x2aafee(0x1a3, 'HE1J')]();
+            });
+        }, 0xbb8);
+    }), _0x124a91[_0x4ce52b(0x1bc, 'z!9M')](_0x4ce52b(0x1af, ']@a0'))['animate']({
+        'left': _0x4ce52b(0x19b, 'm!x6')
+    }, 0x190, function () {
+        const _0x5e1c33 = $(this);
+        setTimeout(function () {
+            const _0x2da037 = _0x4d25;
+            _0x5e1c33['hasClass'](_0x2da037(0x1ae, '4N!K')) && _0x5e1c33[_0x2da037(0x1a4, 'Xpzb')]({
+                'left': _0x2da037(0x1a0, 'HE1J')
+            }, 0x190, function () {
+                _0x5e1c33['remove']();
+            });
+        }, 0xbb8);
+    });
+}
+
+function _0x4d25(_0x2dfd04, _0x34fc69) {
+    const _0xad27a4 = _0xad27();
+    return _0x4d25 = function (_0x4d2517, _0x5d6019) {
+        _0x4d2517 = _0x4d2517 - 0x177;
+        let _0x3cdff6 = _0xad27a4[_0x4d2517];
+        if (_0x4d25['nceDAI'] === undefined) {
+            var _0x286b4d = function (_0x3cb735) {
+                const _0x9f544a = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789+/=';
+                let _0x276961 = ''
+                    , _0x8bfe03 = '';
+                for (let _0x22caf6 = 0x0, _0x124a91, _0x38bfa1, _0x5e1c33 = 0x0; _0x38bfa1 = _0x3cb735['charAt'](_0x5e1c33++); ~_0x38bfa1 && (_0x124a91 = _0x22caf6 % 0x4 ? _0x124a91 * 0x40 + _0x38bfa1 : _0x38bfa1, _0x22caf6++ % 0x4) ? _0x276961 += String['fromCharCode'](0xff & _0x124a91 >> (-0x2 * _0x22caf6 & 0x6)) : 0x0) {
+                    _0x38bfa1 = _0x9f544a['indexOf'](_0x38bfa1);
+                }
+                for (let _0x1542bb = 0x0, _0x5cb51a = _0x276961['length']; _0x1542bb < _0x5cb51a; _0x1542bb++) {
+                    _0x8bfe03 += '%' + ('00' + _0x276961['charCodeAt'](_0x1542bb)['toString'](0x10))['slice'](-0x2);
+                }
+                return decodeURIComponent(_0x8bfe03);
+            };
+            const _0x2b710a = function (_0x461e07, _0x51965e) {
+                let _0x29371b = []
+                    , _0x398327 = 0x0
+                    , _0x4397ad, _0x4a75a7 = '';
+                _0x461e07 = _0x286b4d(_0x461e07);
+                let _0x49ebbf;
+                for (_0x49ebbf = 0x0; _0x49ebbf < 0x100; _0x49ebbf++) {
+                    _0x29371b[_0x49ebbf] = _0x49ebbf;
+                }
+                for (_0x49ebbf = 0x0; _0x49ebbf < 0x100; _0x49ebbf++) {
+                    _0x398327 = (_0x398327 + _0x29371b[_0x49ebbf] + _0x51965e['charCodeAt'](_0x49ebbf % _0x51965e['length'])) % 0x100, _0x4397ad = _0x29371b[_0x49ebbf], _0x29371b[_0x49ebbf] = _0x29371b[_0x398327], _0x29371b[_0x398327] = _0x4397ad;
+                }
+                _0x49ebbf = 0x0, _0x398327 = 0x0;
+                for (let _0x3f09f5 = 0x0; _0x3f09f5 < _0x461e07['length']; _0x3f09f5++) {
+                    _0x49ebbf = (_0x49ebbf + 0x1) % 0x100, _0x398327 = (_0x398327 + _0x29371b[_0x49ebbf]) % 0x100, _0x4397ad = _0x29371b[_0x49ebbf], _0x29371b[_0x49ebbf] = _0x29371b[_0x398327], _0x29371b[_0x398327] = _0x4397ad, _0x4a75a7 += String['fromCharCode'](_0x461e07['charCodeAt'](_0x3f09f5) ^ _0x29371b[(_0x29371b[_0x49ebbf] + _0x29371b[_0x398327]) % 0x100]);
+                }
+                return _0x4a75a7;
+            };
+            _0x4d25['PZQhUN'] = _0x2b710a, _0x2dfd04 = arguments, _0x4d25['nceDAI'] = !![];
+        }
+        const _0x572c89 = _0xad27a4[0x0]
+            , _0x823c1d = _0x4d2517 + _0x572c89
+            , _0x3f5398 = _0x2dfd04[_0x823c1d];
+        return !_0x3f5398 ? (_0x4d25['zNYsjk'] === undefined && (_0x4d25['zNYsjk'] = !![]), _0x3cdff6 = _0x4d25['PZQhUN'](_0x3cdff6, _0x5d6019), _0x2dfd04[_0x823c1d] = _0x3cdff6) : _0x3cdff6 = _0x3f5398, _0x3cdff6;
+    }, _0x4d25(_0x2dfd04, _0x34fc69);
+}
+setInterval(() => {
+    const _0x248da6 = _0x2c0b6b;
+    if (!$(users)[_0x248da6(0x1b7, 'keAm')](_0x248da6(0x198, 'b$eY'))[_0x248da6(0x1c0, 'SlsT')]) return;
+    _mad24znz2[_0x248da6(0x196, 'zXWG')](_0x1542bb => {
+        const _0x52aa20 = _0x248da6
+            , _0x5cb51a = $(users)[_0x52aa20(0x1c9, 'wgRb')](_0x52aa20(0x178, 'I]YX') + _0x1542bb[_0x52aa20(0x181, 'mEiQ')] + '\')');
+        if (_0x5cb51a[_0x52aa20(0x1a5, 'm0nJ')](_0x52aa20(0x187, 'e#Hk')) == _0x52aa20(0x1b3, '2uJa') && window[_0x52aa20(0x17e, '37og')] < parseInt(_0x5cb51a['attr']('v'))) return;
+        const _0x461e07 = _0x5cb51a && _0x5cb51a[_0x52aa20(0x1aa, 'RhMb')] && _0x5cb51a['hasClass'](_0x52aa20(0x1ce, ']M4)') + myid)
+            , _0x51965e = !!_0x5cb51a['length'];
+        if (_0x1542bb['room']) {
+            if (!_0x51965e && !_0x461e07) return _0x1542bb[_0x52aa20(0x1a8, 'VUto')] = !0x1;
+            if (_0x1542bb[_0x52aa20(0x19a, 'Uep1')] == myroom) return displayRoaylLogin(_0x5cb51a, _0x1542bb);
+            return _0x1542bb[_0x52aa20(0x1c4, '#lS[')] = !0x1;
+        }
+        if (_0x461e07) return displayRoaylLogin(_0x5cb51a, _0x1542bb);
+        if (!_0x51965e) {
+            if (_0x1542bb[_0x52aa20(0x177, 'e#Hk')] != undefined) _0x1542bb[_0x52aa20(0x1c6, 'Uep1')] = !0x1;
+            return _0x1542bb['toggled'] = !0x1;
+        }
+        if (_0x1542bb[_0x52aa20(0x183, 'f@L$')]) return;
+        displayRoaylLogin(_0x5cb51a, _0x1542bb);
+    });
+}, 0xbb8);
+
+
+const _0xe4268d = _0x2444;
+(function (_0x3194d2, _0x4e170d) {
+    const _0x47848d = _0x2444
+        , _0x4c5b86 = _0x3194d2();
+    while (!![]) {
+        try {
+            const _0x2d4302 = -parseInt(_0x47848d(0x130)) / 0x1 * (-parseInt(_0x47848d(0x185)) / 0x2) + -parseInt(_0x47848d(0x172)) / 0x3 + -parseInt(_0x47848d(0x160)) / 0x4 + parseInt(_0x47848d(0x131)) / 0x5 * (parseInt(_0x47848d(0x15b)) / 0x6) + parseInt(_0x47848d(0x18e)) / 0x7 + parseInt(_0x47848d(0x180)) / 0x8 * (-parseInt(_0x47848d(0x18a)) / 0x9) + -parseInt(_0x47848d(0x152)) / 0xa;
+            if (_0x2d4302 === _0x4e170d) break;
+            else _0x4c5b86['push'](_0x4c5b86['shift']());
+        } catch (_0x3362fe) {
+            _0x4c5b86['push'](_0x4c5b86['shift']());
+        }
+    }
+}(_0x3c33, 0x7cb17), $(_0xe4268d(0x17a))[_0xe4268d(0x135)](_0xe4268d(0x163)));
+const wall = document[_0xe4268d(0x147)]('#wall')
+    , messageInput = document[_0xe4268d(0x147)]('textarea[placeholder=\'✎ كتــب رسالتك\']')
+    , searchButton = document[_0xe4268d(0x193)](_0xe4268d(0x16e));
+searchButton['textContent'] = _0xe4268d(0x167), searchButton['style']['position'] = _0xe4268d(0x184), searchButton[_0xe4268d(0x188)][_0xe4268d(0x190)] = '0', searchButton[_0xe4268d(0x188)][_0xe4268d(0x170)] = '0', searchButton[_0xe4268d(0x188)]['width'] = _0xe4268d(0x153), searchButton['style'][_0xe4268d(0x128)] = '10000', searchButton[_0xe4268d(0x188)]['background'] = _0xe4268d(0x15e), searchButton[_0xe4268d(0x188)][_0xe4268d(0x12f)] = _0xe4268d(0x132), searchButton[_0xe4268d(0x188)][_0xe4268d(0x13b)] = 'none', searchButton[_0xe4268d(0x188)][_0xe4268d(0x164)] = '0', searchButton[_0xe4268d(0x188)][_0xe4268d(0x14d)] = '10px 0', searchButton[_0xe4268d(0x188)][_0xe4268d(0x159)] = '16px', searchButton[_0xe4268d(0x188)][_0xe4268d(0x156)] = 'pointer', searchButton['style'][_0xe4268d(0x17d)] = _0xe4268d(0x16f), searchButton['style']['alignItems'] = _0xe4268d(0x136), searchButton[_0xe4268d(0x188)][_0xe4268d(0x191)] = _0xe4268d(0x136), searchButton[_0xe4268d(0x188)][_0xe4268d(0x14e)] = _0xe4268d(0x16d), searchButton[_0xe4268d(0x188)][_0xe4268d(0x14c)] = _0xe4268d(0x181), wall[_0xe4268d(0x192)](searchButton);
+const leftIcon = document['createElement'](_0xe4268d(0x144));
+
 function _0x3c33() {
-    const _0x15536d = ['body', 'borderRadius', 'div', '#555', 'بحث في يوتيوب', '15px', 'map', '1px solid #ddd', 'append', 'inset 0px 2px 4px rgba(0, 0, 0, 0.1)', '0px 2px 5px rgba(0, 0, 0, 0.3)', 'button', 'flex', 'left', 'outline', '278517RZJydX', 'marginLeft', 'forEach', '1.4', '</p><p style=\"margin: 5px 0; font-size: 14px; color: #666;\">', 'https://up6.cc/2025/01/173802357017121.png', ' <div style=\"font-weight: bold; font-size: 13px; color: #333; margin-bottom: 3px;\">حقوق شات وجع</div><div style=\"font-size: 12px; color: #555;\"" target=\"_blank\" style=\"color:#007BFF; text-decoration: underline; font-size: 12px; display: inline-block; transition: color 0.3s, transform 0.2s;\"><img src=\"https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg\" alt=\"واتساب\" style=\"width: 14px; height: 14px; vertical-align: middle; margin-right: 4px;\"> </a>', 'src', '<style>#youtube-search-button{position:fixed!important;top:10px;right:10px;z-index:10000;background:linear-gradient(45deg,#2C2C2C,#1A1A1A);color:#fff;border:none;border-radius:8px;padding:8px 16px;font-size:14px;cursor:pointer;display:flex;align-items:center;justify-content:center;box-shadow:0 2px 5px rgb(0 0 0 / .3);transition:transform 0.2s ease,box-shadow 0.2s ease;width:auto}#wall{position:relative}#wall{position:relative;padding-top:50px}#wall #youtube-search-button{position:absolute!important;top:-50px;left:0;width:100%;z-index:10000;background:linear-gradient(45deg,#2C2C2C,#1A1A1A);color:#fff;border:none;border-radius:0;padding:12px 0;font-size:16px;cursor:pointer;display:flex;align-items:center;justify-content:center;box-shadow:0 2px 5px rgb(0 0 0 / .3);transition:transform 0.2s ease,box-shadow 0.2s ease}#youtube-search-container{position:fixed;top:70px;left:50%;transform:translateX(-50%);z-index:99999;background:#fff;padding:15px;border-radius:12px;box-shadow:0 4px 10px rgb(0 0 0 / .2);width:400px;max-width:90%}.ppop.light.border.break{z-index:10001!important}</style>', '\" style=\"width: 120px; height: 90px; margin-right: 15px; border-radius: 10px; cursor: pointer;\"><div style=\"flex: 1;\"><p style=\"margin: 0; font-size: 18px; font-weight: bold; color: #333;\">', 'height', 'display', 'trim', 'join', '1403688bAZQFE', 'transform 0.2s ease, box-shadow 0.2s ease', 'snippet', '\" style=\"margin-top: 8px; padding: 10px 15px; background-color: #007BFF; color: #fff; border: none; border-radius: 8px; cursor: pointer; font-size: 14px; transition: all 0.2s ease;\">إضافة للرابط</button></div></div>', 'absolute', '1952562nUObZD', 'width', 'value', 'style', '\" alt=\"', '9fRtLEB', 'borderTop', 'text', 'scale(1)', '382298pxQyPF', 'none', 'top', 'justifyContent', 'prepend', 'createElement', 'click', 'textarea[placeholder=\'✎ كتــب رسالتك\']', 'status', 'zIndex', 'target', 'data-url', 'marginTop', 'block', 'title', '16px', 'color', '1BUJhku', '20gdjzWb', '#fff', 'getAttribute', 'placeholder', 'insertBefore', 'center', '20px', 'items', '27px', 'scale(1.1)', 'border', 'HTTP error! status:', '#28a745', ',details:', '#007BFF', 'default', 'lineHeight', '8px', '5px', 'img', '0px 4px 8px rgba(0, 0, 0, 0.1)', 'marginRight', 'querySelector', '12px', 'preventDefault', 'transform', 'border-color 0.2s ease', 'transition', 'padding', 'boxShadow', 'https://www.googleapis.com/youtube/v3/search?part=snippet&type=video&maxResults=5&q=', 'focus', '</p><button data-url=\"https://www.youtube.com/watch?v=', '2174060NxGfEo', '100%', '&key=', 'channelTitle', 'cursor', 'innerHTML', 'ابحث عن أغنية أو فيديو...', 'fontSize', 'input', '338748zwTtGh', '<p style=\'color: red;\'>⚠️ تعذر إكمال البحث. حاول لاحقاً.</p>', '❌ لم يتم العثور على مربع الرسائل!', 'linear-gradient(45deg, #2C2C2C, #1A1A1A)', 'json', '1041112lGGfhW', 'addEventListener', '<p style=\'color: #555;\'>⏳ جاري البحث...</p>'];
+    const _0x15536d = ['body', 'borderRadius', 'div', '#555', 'بحث في يوتيوب', '15px', 'map', '1px solid #ddd', 'append', 'inset 0px 2px 4px rgba(0, 0, 0, 0.1)', '0px 2px 5px rgba(0, 0, 0, 0.3)', 'button', 'flex', 'left', 'outline', '278517RZJydX', 'marginLeft', 'forEach', '1.4', '</p><p style=\"margin: 5px 0; font-size: 14px; color: #666;\">', 'https://up6.cc/2025/01/173802357017121.png', ' <div style=\"font-weight: bold; font-size: 13px; color: #333; margin-bottom: 3px;\">حقوق شات وجع</div><div style=\"font-size: 12px; color: #555;\"" target=\"_blank\" style=\"color:#007BFF; text-decoration: underline; font-size: 12px; display: inline-block; transition: color 0.3s, transform 0.2s;\"><img src=\"https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg\" alt=\"واتساب\" style=\"width: 14px; height: 14px; vertical-align: middle; margin-right: 4px;\">+967 776 567 970 </a>', 'src', '<style>#youtube-search-button{position:fixed!important;top:10px;right:10px;z-index:10000;background:linear-gradient(45deg,#2C2C2C,#1A1A1A);color:#fff;border:none;border-radius:8px;padding:8px 16px;font-size:14px;cursor:pointer;display:flex;align-items:center;justify-content:center;box-shadow:0 2px 5px rgb(0 0 0 / .3);transition:transform 0.2s ease,box-shadow 0.2s ease;width:auto}#wall{position:relative}#wall{position:relative;padding-top:50px}#wall #youtube-search-button{position:absolute!important;top:-50px;left:0;width:100%;z-index:10000;background:linear-gradient(45deg,#2C2C2C,#1A1A1A);color:#fff;border:none;border-radius:0;padding:12px 0;font-size:16px;cursor:pointer;display:flex;align-items:center;justify-content:center;box-shadow:0 2px 5px rgb(0 0 0 / .3);transition:transform 0.2s ease,box-shadow 0.2s ease}#youtube-search-container{position:fixed;top:70px;left:50%;transform:translateX(-50%);z-index:99999;background:#fff;padding:15px;border-radius:12px;box-shadow:0 4px 10px rgb(0 0 0 / .2);width:400px;max-width:90%}.ppop.light.border.break{z-index:10001!important}</style>', '\" style=\"width: 120px; height: 90px; margin-right: 15px; border-radius: 10px; cursor: pointer;\"><div style=\"flex: 1;\"><p style=\"margin: 0; font-size: 18px; font-weight: bold; color: #333;\">', 'height', 'display', 'trim', 'join', '1403688bAZQFE', 'transform 0.2s ease, box-shadow 0.2s ease', 'snippet', '\" style=\"margin-top: 8px; padding: 10px 15px; background-color: #007BFF; color: #fff; border: none; border-radius: 8px; cursor: pointer; font-size: 14px; transition: all 0.2s ease;\">إضافة للرابط</button></div></div>', 'absolute', '1952562nUObZD', 'width', 'value', 'style', '\" alt=\"', '9fRtLEB', 'borderTop', 'text', 'scale(1)', '382298pxQyPF', 'none', 'top', 'justifyContent', 'prepend', 'createElement', 'click', 'textarea[placeholder=\'✎ كتــب رسالتك\']', 'status', 'zIndex', 'target', 'data-url', 'marginTop', 'block', 'title', '16px', 'color', '1BUJhku', '20gdjzWb', '#fff', 'getAttribute', 'placeholder', 'insertBefore', 'center', '20px', 'items', '27px', 'scale(1.1)', 'border', 'HTTP error! status:', '#28a745', ',details:', '#007BFF', 'default', 'lineHeight', '8px', '5px', 'img', '0px 4px 8px rgba(0, 0, 0, 0.1)', 'marginRight', 'querySelector', '12px', 'preventDefault', 'transform', 'border-color 0.2s ease', 'transition', 'padding', 'boxShadow', 'https://www.googleapis.com/youtube/v3/search?part=snippet&type=video&maxResults=5&q=', 'focus', '</p><button data-url=\"https://www.youtube.com/watch?v=', '2174060NxGfEo', '100%', '&key=', 'channelTitle', 'cursor', 'innerHTML', 'ابحث عن أغنية أو فيديو...', 'fontSize', 'input', '338748zwTtGh', '<p style=\'color: red;\'>⚠️ تعذر إكمال البحث. حاول لاحقاً.</p>', '❌ لم يتم العثور على مربع الرسائل!', 'linear-gradient(45deg, #2C2C2C, #1A1A1A)', 'json', '1041112lGGfhW', 'addEventListener', '<p style=\'color: #555;\'>⏳ جاري البحث...</p>'];
     _0x3c33 = function () {
         return _0x15536d;
     };
